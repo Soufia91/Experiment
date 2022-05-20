@@ -1,0 +1,14 @@
+Our implementation is done on the OSCAR Solver Available at :  https://bitbucket.org/oscarlib/oscar/src/dev/ 
+
+The OSCAR solver including our implementation is available at: 
+
+The code source of our implementation is in the follwing path: 
+    Experiment\oscar\oscar-cp\src\main\scala\oscar\cp\compression
+
+The file corresponding to our MFI compression method is "MaximCompress.scala"
+
+The instances used in our experiments are available in:  https://bitbucket.org/pschaus/xp-table/src/master/instances/
+
+To test an instance, you copy the instance ".xml" in the foldder "Experiment\oscar\oscar-cp\src\main\scala\oscar\cp\xcsp\examples" then lench the class "STR2Bench.scala"
+
+The IDE used for our implementation is IntelliJIDE 
